@@ -38,6 +38,18 @@ main{
     font-size: 12px;
     margin-top: 7px;
 }
+.labels{
+    display: flex;
+    position: absolute;
+    left: 0;
+    bottom: 100px;
+}
+.label{
+    padding: 5px;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+}
 /* Content  */
 .content{
     text-align: center;
@@ -46,6 +58,15 @@ main{
 }
 .content-main{
     margin: 10px;
+    position: relative;
+}
+/* background e colori  */
+.bg-green{
+    background-color: green;
+}
+.bg-red{
+    background-color: red;
+    margin-right: 5px;
 }
 /* Selettori composti  */
 .content a{
