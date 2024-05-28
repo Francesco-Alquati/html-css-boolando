@@ -13,6 +13,9 @@ header{
 main{
     border-top: 1px inset rgba(1, 1, 1, 0.308);;
 }
+footer{
+    background-color: rgb(27, 27, 27);
+}
 /* Classi di layout */
 .container{
     max-width: 1200px;
@@ -29,10 +32,17 @@ main{
 .col-33{
     width: calc(100% / 3);
 }
+.col-50{
+    width: 50%;
+}
 .col-60{
     width: 60%;
 }
-/* Classi di stile  */
+.d-inline{
+    display: inline;
+}
+/* CLASSI DI STILE */
+/* Generiche */
 .icons{
     color: white;
     font-size: 12px;
@@ -75,6 +85,10 @@ main{
     margin: 10px;
     position: relative;
 }
+.content-footer{
+    margin: 25px 10px 25px 10px;
+    color: white;
+}
 /* background e colori  */
 .bg-green{
     background-color: green;
@@ -88,7 +102,6 @@ main{
 }
 .red{
     color: red;
-    display: inline;
 }
 /* Selettori composti  */
 .content a{
@@ -103,6 +116,11 @@ main{
     width: 100%;
     margin: 55px 0px;
 }
+.content-footer a{
+    text-decoration: none;
+    color: white;
+    font-size: 10px;
+}
 .heart:hover{
     color: red;
 }
@@ -113,7 +131,16 @@ main{
 .mx-2{
     margin: 0px 2px;
 }
+.mb-5{
+    margin-bottom: 5px;
+}
 /* text  */
 .line-through{
     text-decoration: line-through;
+}
+.ta-right{
+    text-align: right;
+}
+.fs-13{
+    font-size: 13px;
 }
