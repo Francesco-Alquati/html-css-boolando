@@ -22,8 +22,12 @@ main{
     display: flex;
     flex-wrap: wrap;
 }
+/* colonne  */
 .col-20{
     width: 20%;
+}
+.col-33{
+    width: calc(100% / 3);
 }
 .col-60{
     width: 60%;
@@ -40,6 +44,9 @@ main{
     margin-top: 5px;
     padding: 10px;
 }
+.content-main{
+    margin: 10px;
+}
 /* Selettori composti  */
 .content a{
     text-decoration: none;
@@ -48,6 +55,10 @@ main{
 }
 .content img{
     width: 100px;
+}
+.content-main img{
+    width: 100%;
+    margin: 50px 0px;
 }
 /* Margin  */
 .mx-5{
