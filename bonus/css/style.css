@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Elementi comuni*/
+body{
+    font-family: Arial, sans-serif;
+}
+header{
+    background-color: rgb(255, 111, 0);
+}
+main{
+    border-top: 1px inset rgba(1, 1, 1, 0.308);;
+}
+footer{
+    background-color: rgb(27, 27, 27);
+}
+/* Classi di layout */
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+/* colonne  */
+.col-20{
+    width: 20%;
+}
+.col-33{
+    width: calc(100% / 3);
+}
+.col-50{
+    width: 50%;
+}
+.col-60{
+    width: 60%;
+}
+.d-inline{
+    display: inline;
+}
+.d-block{
+    display: block;
+}
+.d-none{
+    display: none;
+}
+/* CLASSI DI STILE */
+/* Generiche */
+.icons{
+    color: white;
+    font-size: 12px;
+    margin-top: 7px;
+}
+.labels{
+    display: flex;
+    position: absolute;
+    left: 0;
+    bottom: 100px;
+}
+.label{
+    padding: 5px;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+}
+.heart{
+    text-align: center;
+    position: absolute;
+    right: 0px;
+    top: 10px;
+    padding: 3px 10px 3px 10px;
+    font-size: 25px;
+    background-color: white;
+}
+/* Content  */
+.content{
+    margin-top: 5px;
+    padding: 10px;
+}
+.content-main{
+    margin: 20px 10px;
+    position: relative;
+}
+.content-footer{
+    margin: 25px 10px 25px 10px;
+    color: white;
+}
+/* background e colori  */
+.bg-green{
+    background-color: green;
+}
+.bg-red{
+    background-color: red;
+    margin-right: 5px;
+}
+.lgrey{
+    color: rgb(106, 106, 106);
+}
+.red{
+    color: red;
+}
+/* Selettori composti  */
+.content a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+.content img{
+    width: 100px;
+}
+.content-main:hover .d-block{
+    display: none;
+}
+.content-main:hover .d-none{
+    display: block;
+}
+.content-main img{
+    width: 100%;
+    margin: 0px 0px;
+}
+.content-footer a{
+    text-decoration: none;
+    color: white;
+    font-size: 10px;
+}
+.heart:hover{
+    color: red;
+}
+/* Margin  */
+.mx-5{
+    margin: 0px 5px;
+}
+.mx-2{
+    margin: 0px 2px;
+}
+.mb-5{
+    margin-bottom: 5px;
+}
+.mb-60{
+    margin-bottom: 60px;
+}
+.mt-60{
+    margin-top: 60px;
+}
+/* text  */
+.line-through{
+    text-decoration: line-through;
+}
+.ta-right{
+    text-align: right;
+}
+.ta-center{
+    text-align: center;
+}
+.fs-13{
+    font-size: 13px;
+}
