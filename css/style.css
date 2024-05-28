@@ -77,7 +77,6 @@ footer{
 }
 /* Content  */
 .content{
-    text-align: center;
     margin-top: 5px;
     padding: 10px;
 }
@@ -140,6 +139,9 @@ footer{
 }
 .ta-right{
     text-align: right;
+}
+.ta-center{
+    text-align: center;
 }
 .fs-13{
     font-size: 13px;
