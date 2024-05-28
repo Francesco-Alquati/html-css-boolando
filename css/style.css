@@ -50,6 +50,19 @@ main{
     font-size: 15px;
     text-align: center;
 }
+.heart{
+    text-align: center;
+    position: absolute;
+    right: 0px;
+    top: 60px;
+    padding: 3px 10px 3px 10px;
+    font-size: 25px;
+    background-color: white;
+    cursor: pointer;
+}
+.heart:hover{
+    color: red;
+}
 /* Content  */
 .content{
     text-align: center;
